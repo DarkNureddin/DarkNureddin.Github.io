@@ -8,9 +8,29 @@ text{color: white;
 
 }
 .frame{display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-} 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 80px;
+    margin-inline-end: 0px;
+    padding-inline-start: 80px;
+}
+ 
 
+.menu{display: flex;
+    color: #f7f3f3;
+    margin: 45px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.button{display:flex;
+
+}
+
+.children{
+    text-align: center;
+
+    
+}
