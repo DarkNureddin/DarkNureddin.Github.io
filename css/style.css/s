@@ -1,0 +1,15 @@
+body{
+
+    background-color: black;
+
+}
+text{color: white;
+    size: 20px;
+
+}
+.frame{display: flex;
+flex-direction: column;
+justify-content: ;
+text-align: center;
+} 
+
