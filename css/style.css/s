@@ -8,8 +8,9 @@ text{color: white;
 
 }
 .frame{display: flex;
-flex-direction: column;
-justify-content: ;
-text-align: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
 } 
 
