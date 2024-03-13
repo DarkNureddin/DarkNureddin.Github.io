@@ -1,0 +1,36 @@
+/* Создать отдельный css для переменных _variables.css и включить туда цвета: черный и белый (еще какие-то) */
+body {
+    background-color: black;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.menu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-left: 110px;
+    margin-right: 168px;
+}
+
+
+.button {
+width: 140px;
+height: 50px;
+color: white;
+border-radius: 1px;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: transparent;
+}
+
+
