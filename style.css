@@ -1,36 +1,74 @@
-/* Создать отдельный css для переменных _variables.css и включить туда цвета: черный и белый (еще какие-то) */
-body {
-    background-color: black;
-    margin: 0px;
-    box-sizing: border-box;
-    
-    
+body { 
+  font-family: "Anek Devanagari", sans-serif;
+  font-style: normal;
+  background-color: black;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: center;
 }
 
-.menu {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 40px;
-    margin-left: 110px;
-    margin-right: 168px;
+.header {
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  color: rgb(255, 255, 255);
 }
 
 
-.button {
-width: 140px;
-height: 50px;
-color: white;
-border-radius: 1px;
+.button-bcblue {
+  padding: 15px 30px;
+  color: white;
+  border: 1px solid white;;
+  align-items: center;
+  background-color: blue;
+  cursor: pointer;
+}
+.button-transparent {
+  padding: 15px 30px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  background-color:transparent;
+  cursor: pointer;
+}
+.main {
+  font-size: 24px;
+}
+.main-text {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.main-promoblock-descriptions {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+  
+.main-picture{
+  max-width: 1300;;
+  align-items: center;
+
+  
+}
+
+.main-button {
 text-align: center;
-align-items: center;
-justify-content: center;
-background-color: transparent;
 }
-
-
