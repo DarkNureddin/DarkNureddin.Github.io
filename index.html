@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
- <title></title>
-</head>
-<body> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@249&display=swap" rel="stylesheet">
+    />
+    <title>Slate Calendar</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./pic/logo.png"
+          alt="Header-logo"
+          width="190px"
+          height="60px"
+        />
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Product</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
 
-<div class="container">
+        <button class="button-transparent" type="button">Login</button>
+      </header>
 
-<header class="menu">
-    <img src="./figma/logo dark.png" alt="Header-logo" width="190px" height="60px">
-<nav>  
-    <a href="#">Home</a>
-    <a href="#">Product</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-</nav>
-   
-    <button class="button log" type="button">Login</button>
+    <main class="main">
+      <div class="main-text">
+      
+        <h1 class="main-promoblock-title">Work at the speed of thoughts</h1>
+        <p class="main-promoblock-descriptions">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who want a simple way to plan their schedule.
+        </p>
+     
+      </div>
+      
 
-    </header>
-</div>
+      <div class="main-button">
+        <button class="button-bcblue" type="button">Try For Free</button>
+        <button class="button-transparent" type="button">Learn More</button>
+      </div>
 
-    <!-- Следовать логике как с header, только помнить о том что это уже main -->
-    <div class="children">
-    <!-- Убрать ul: здесь будет тег h1 и тег p -->
-    <ul>
-        <li>
-            <text>Work at the speed of thought</text>
-        </li>
-        <li>
-            <text>Most calendars are designed for teams. Slate is designed for 
-                freelancers who want a simple way to plan their schedule.</text>
-        </li>     
-    </ul>
-    <!-- Сделать две необходимые кнопки  -->
+    <div class="main-picture">
+      <img src="./pic/Group 1.png"
+      alt="boards"
+      />   
+      
     </div>
-</body>
+     </div>
+      </main>
+
+  </body>
+    </html>
